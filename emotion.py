@@ -2,7 +2,7 @@ import cv2
 from deepface import DeepFace
 
 # Load the pre-trained emotion detection model
-model = DeepFace.build_model("Emotion")
+model = DeepFace.build_model("Emotion")xcv
 
 # Define emotion labels
 emotion_labels = ['angry', 'disgust', 'fear', 'happy', 'sad', 'surprise', 'neutral']
