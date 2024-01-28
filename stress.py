@@ -14,7 +14,7 @@ face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_fronta
 # Initialize facial landmark detector from dlib
 landmark_detector = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
 
-# Start capturing videoasdas
+# Start capturing video
 cap = cv2.VideoCapture(0)
 
 while True:
